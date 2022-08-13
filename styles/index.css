@@ -43,9 +43,8 @@ body{
 
 header{
     position: relative;
-    padding: 3rem 6rem;
+    padding: 4.1rem 6rem;
     background-color: var(--header-background-color);
-    overflow: hidden;
 }
 
 header .header-logo{
@@ -79,7 +78,7 @@ header .header-logo .title-subtitle h3{
 .shapedividers_com-455{
     overflow:hidden;
     position:absolute;
-    bottom: -5px;
+    bottom: 0;
     left: 0;
     height: 8rem;
     width: 100%;
@@ -104,14 +103,14 @@ main{
     position: relative;
     min-height: 100rem;
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 main .nav-menus{
     position: relative;
     display: flex;
     justify-content: center;
-    padding: 3rem 6rem;
+    padding: 6rem 6rem;
     margin-bottom: 3rem;
 }
 
@@ -224,9 +223,8 @@ main .nav-menus .nav-menu-itens li a{
 
 footer{
     position: relative;
-    padding: 3rem 6rem;
+    padding: 3.5rem 6rem;
     background-color: var(--header-background-color);
-    overflow: hidden;
 }
 
 footer .shapedividers_com-7066{
@@ -294,7 +292,23 @@ footer .copyrigth{
 @media (max-width:460px){
     html{
         font-size: 50%;
-    }main .nav-menus .nav-menu-itens li{
+    }.shapedividers_com-455{
+        overflow:hidden;
+        position:absolute;
+        bottom: -1px;
+        left: 0;
+        height: 10rem;
+        width: 100%;
+        overflow: hidden;
+    }footer .shapedividers_com-7066{
+        overflow:hidden;
+        position:absolute;
+        top: -5px;
+        left: 0;
+        height: 12rem;
+        width: 100%;
+        overflow: hidden;}
+    main .nav-menus .nav-menu-itens li{
         padding: 0.5rem 1rem;
     }footer .footer-text{
         font-size: 1.5rem;

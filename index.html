@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b3a2a33b3a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/index.css">
     <title>Lanchonete do Wendão</title>
 </head>
@@ -21,19 +22,100 @@
     <main>
         <div class="nav-menus">
             <ul class="nav-menu-itens">
+                <li><a href="#pizzas ">pizzas</a></li>
+                <li><a href="#snacks">Lanches</a></li>
                 <li><a href="#drinks">Bebidas</a></li>
-                <li><a href="#servings ">Porções</a></li>
-                <li><a href="#Hamburguers">Hambúrguers</a></li>
-                <li><a href="#pastas">Massas</a></li>
-                <li><a href="#desserts">Sobremesas</a></li>
             </ul>
         </div>
         <section class="menu-itens">
-            <section class="iten-section">
+            <section class=" pizzas-section iten-section">
+                <div class="section-title">
+                    <h2 id="pizzas">Pizzas</h2>
+                </div>
+                <div class="pizza-section subsection">
+                    <div class="cards-section">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="imgs/pizza-1.webp" alt="">
+                            </div>
+                            <div class="iten-description">
+                                <p class="name">Pizza Portuguesa</p>
+                                <p class="price">R$ 26,00</p>
+                                <p class="ingredients">Ingredientes: Queijo Mussalera, Presunto, Tomate, Ovo Cozido</p>
+                                <p class="size">Pizza Grande</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="imgs/pizza-2.webp" alt="">
+                            </div>
+                            <div class="iten-description">
+                                <p class="name">Pizza de Brócolis</p>
+                                <p class="price">R$ 24,00</p>
+                                <p class="ingredients">Ingredientes: Calabresa Defumada, Azeitonas Pretas, Tomates, Brócolis</p>
+                                <p class="size">Pizza Média</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="imgs/pizza-3.webp" alt="">
+                            </div>
+                            <div class="iten-description">
+                                <p class="name">Pizza de Frango</p>
+                                <p class="price">R$ 24,00</p>
+                                <p class="Ingredients">Ingredientes: Frango, Pimentão, Tomate, Champignon.</p>
+                                <p class="size">Pizza Pequena</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class=" snacks-section iten-section">
+                <div class="section-title">
+                    <h2 id="snacks">Lanches</h2>
+                </div>
+                <div class="snacks-section subsection">
+                    <div class="cards-section">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="imgs/x-salada.webp" alt="">
+                            </div>
+                            <div class="iten-description">
+                                <p class="name">X-Salada</p>
+                                <p class="price">R$ 12,00</p>
+                                <p class="ingredients">Ingredientes: Queijo, Carne, Tomate, Cebola, Alface</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="imgs/x-tudo.webp" alt="">
+                            </div>
+                            <div class="iten-description">
+                                <p class="name">X-Tudo</p>
+                                <p class="price">R$ 18,00</p>
+                                <p class="ingredients">Ingredientes: Carne, Cebola, Tomate, Alface, </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="imgs/sanduiche-natural.webp" alt="">
+                            </div>
+                            <div class="iten-description">
+                                <p class="name">Sanduiche Natural</p>
+                                <p class="price">R$ 10,00</p>
+                                <p class="Ingredients">Ingredientes: Frango Desfiado, Cebola, Tomate, Champignon, Alface, presunto</p>
+                                <p class="size">Pizza Pequena</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class=" drinks-section iten-section">
                 <div class="section-title">
                     <h2 id="drinks">Bebidas</h2>
                 </div>
-                <div class="subsection-beers subsection">
+                <div class="beer-section subsection">
                     <div class="subsection-title">
                         <h3>Cervejas</h3>
                     </div>
@@ -44,8 +126,8 @@
                             </div>
                             <div class="iten-description">
                                 <p class="name">Stella</p>
-                                <p class="price">R$ 8,00</p>
-                                <p class="size">Tamanho: 600ml</p>
+                                <p class="price">R$ 12,00</p>
+                                <p class="size">Tamanho: 1000ml</p>
                             </div>
                         </div>
                         <div class="card">
@@ -64,37 +146,158 @@
                             </div>
                             <div class="iten-description">
                                 <p class="name">Stella</p>
+                                <p class="price">R$ 4,00</p>
+                                <p class="size">Tamanho: 275ml</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="imgs/garra-brahma.webp" alt="">
+                            </div>
+                            <div class="iten-description">
+                                <p class="name">Brahma</p>
+                                <p class="price">R$ 13,00</p>
+                                <p class="size">Tamanho: 1000ml</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="imgs/garra-brahma.webp" alt="">
+                            </div>
+                            <div class="iten-description">
+                                <p class="name">Brahma</p>
                                 <p class="price">R$ 8,00</p>
                                 <p class="size">Tamanho: 600ml</p>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-img">
-                                <img src="imgs/garrafa-cerveja-stella-artois.webp" alt="">
+                                <img src="imgs/garrafa-heineken.webp" alt="">
                             </div>
                             <div class="iten-description">
-                                <p class="name">Stella</p>
-                                <p class="price">R$ 8,00</p>
+                                <p class="name">Heineken</p>
+                                <p class="price">R$ 6,00</p>
+                                <p class="size">Tamanho: 275ml</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chopp-section subsection">
+                    <div class="subsection-title">
+                        <h3>Chopp</h3>
+                    </div>
+                    <div class="cards-section">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="imgs/chopp-normal.webp" alt="">
+                            </div>
+                            <div class="iten-description">
+                                <p class="name">Chopp Claro</p>
+                                <p class="price">R$ 15,00</p>
+                                <p class="size">Tamanho: 750ml</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="imgs/chopp-normal.webp" alt="">
+                            </div>
+                            <div class="iten-description">
+                                <p class="name">Chopp Claro</p>
+                                <p class="price">R$ 10,00</p>
                                 <p class="size">Tamanho: 600ml</p>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-img">
-                                <img src="imgs/garrafa-cerveja-stella-artois.webp" alt="">
+                                <img src="imgs/chopp-vinho.webp" alt="">
                             </div>
                             <div class="iten-description">
-                                <p class="name">Stella</p>
+                                <p class="name">Chopp de Vinho</p>
+                                <p class="price">R$ 14,00</p>
+                                <p class="size">Tamanho: 750ml</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="imgs/chopp-vinho.webp" alt="">
+                            </div>
+                            <div class="iten-description">
+                                <p class="name">Chopp de Vinho</p>
+                                <p class="price">R$ 12,00</p>
+                                <p class="size">Tamanho: 600ml</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wine-section subsection">
+                    <div class="subsection-title">
+                        <h3>Vinhos</h3>
+                    </div>
+                    <div class="cards-section">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="imgs/vinho-tinto.webp" alt="">
+                            </div>
+                            <div class="iten-description">
+                                <p class="name">Vinho Tinto</p>
+                                <p class="price">R$ 25,00</p>
+                                <p class="size">Tamanho: 1L</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="imgs/vinho-branco.webp" alt="">
+                            </div>
+                            <div class="iten-description">
+                                <p class="name">Vinho Branco</p>
+                                <p class="price">R$ 20,00</p>
+                                <p class="size">Tamanho: 1L</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="soda-section subsection">
+                    <div class="subsection-title">
+                        <h3>Refrigerantes</h3>
+                    </div>
+                    <div class="cards-section">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="imgs/coca-cola-2l.webp" alt="">
+                            </div>
+                            <div class="iten-description">
+                                <p class="name">Coca Cola</p>
+                                <p class="price">R$ 10,00</p>
+                                <p class="size">Tamanho: 2L</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="imgs/guarana-2l.webp" alt="">
+                            </div>
+                            <div class="iten-description">
+                                <p class="name">Guarana 2L</p>
                                 <p class="price">R$ 8,00</p>
+                                <p class="size">Tamanho: 2L</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="imgs/coca-cola-600ml.webp" alt="">
+                            </div>
+                            <div class="iten-description">
+                                <p class="name">Coca Cola 600ml</p>
+                                <p class="price">R$ 6,00</p>
                                 <p class="size">Tamanho: 600ml</p>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-img">
-                                <img src="imgs/garrafa-cerveja-stella-artois.webp" alt="">
+                                <img src="imgs/guarana-600ml.webp" alt="">
                             </div>
                             <div class="iten-description">
-                                <p class="name">Stella</p>
-                                <p class="price">R$ 8,00</p>
+                                <p class="name">Guarana 600ml</p>
+                                <p class="price">R$ 4,00</p>
                                 <p class="size">Tamanho: 600ml</p>
                             </div>
                         </div>
@@ -103,5 +306,20 @@
             </section>
         </section>
     </main>
+    <footer>
+        <div class="shapedividers_com-7066"></div>
+        <div class="footer-logo">
+            <img src="imgs/Meu-projeto.webp" alt="">
+        </div>
+        <div class="footer-text">
+            <p>Venha nos Conhecer!</p>
+            <div class="adress">
+                <p><i class="fa-solid fa-location-dot icon"></i>Praça Monsenhor Dutra, Paraisópolis - 556 - Centro - Paraisópolis-MG</p>
+            </div>
+        </div>
+        <div class="copyrigth">
+            <p>Lanchonete do Wendão ® Copyright 2022. Todos os Direitos Reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>

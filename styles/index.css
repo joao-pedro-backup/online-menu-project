@@ -18,7 +18,7 @@
 }
 
 :root{
-    --header-background-color:  #000;
+    --header-footer-background-color:  rgb(226, 5, 5);
     --letters-main-primary-color:   #ff6205;
     --letters-main-Secondary-color: #171717;
 }
@@ -44,19 +44,18 @@ body{
 header{
     position: relative;
     padding: 4.1rem 6rem;
-    background-color: var(--header-background-color);
+    background-color: var(--header-footer-background-color);
 }
 
 header .header-logo{
     position: relative;
     text-align: center;
-    margin-bottom: 1rem;
 }
 
 header .header-logo img{
-    height: 20rem;
+    height: 18rem;
     width: 20rem;
-    border-radius: 100%;
+    margin-bottom: 1rem;
 }
 
 header .header-logo .title-subtitle h1{
@@ -64,7 +63,7 @@ header .header-logo .title-subtitle h1{
     font-family: 'Rialton',sans-serif;
     font-weight: 500;
     font-size: 4rem;
-    color: var(--letters-main-primary-color);
+    color: rgb(255, 221, 0);
     margin: 1.5rem 0 14rem 0;
 }
 
@@ -72,7 +71,7 @@ header .header-logo .title-subtitle h3{
     font-family: 'Insanibc',sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .shapedividers_com-455{
@@ -213,18 +212,36 @@ main .nav-menus .nav-menu-itens li a{
 
 .menu-itens .iten-section .cards-section .card .iten-description p{
     font-size: 1.6rem;
-    color: rgb(58, 58, 58);
+    color: #000000;
     font-family: 'Roboto';
 }
 
-.menu-itens .iten-section .cards-section .card .iten-description .size{
-    font-weight: 900;
+.menu-itens .iten-section .warning{
+    position: relative;
+    text-align: center;
+    margin: 6rem 0;
+}
+
+.menu-itens .iten-section .warning p{
+    font-size: 2rem;
+    font-family: 'Bebas Neue',sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgb(233, 0, 0);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    letter-spacing: 2px;
+}
+
+.menu-itens .iten-section .warning p:first-child{
+    margin: 2rem auto;
+    width: 95%;
 }
 
 footer{
     position: relative;
     padding: 3.5rem 6rem;
-    background-color: var(--header-background-color);
+    background-color: var(--header-footer-background-color);
 }
 
 footer .shapedividers_com-7066{
@@ -260,7 +277,6 @@ footer .footer-logo{
 footer .footer-logo img{
     height: 20rem;
     width: 20rem;
-    border-radius: 100%;
 }
 
 footer .footer-text{
@@ -278,7 +294,7 @@ footer .footer-text p{
 footer .footer-text p .icon{
     padding-right: 2rem;
     height: 3rem;
-    color: #ff6205;
+    color: #ffc905;
 }
 
 footer .copyrigth{
@@ -292,7 +308,24 @@ footer .copyrigth{
 @media (max-width:460px){
     html{
         font-size: 50%;
-    }.shapedividers_com-455{
+    }main{
+        position: relative;
+        display: block;
+        overflow: visible;
+    }
+    main .nav-menus{
+        position: sticky;
+        top: 0rem;
+        display: flex;
+        justify-content: center;
+        padding: 6rem 6rem;
+        margin-bottom: 3rem;
+        z-index: 100;
+    }main .nav-menus li{
+        background-color: #fff;
+    }
+
+    .shapedividers_com-455{
         overflow:hidden;
         position:absolute;
         bottom: -1px;

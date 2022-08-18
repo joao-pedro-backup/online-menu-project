@@ -189,18 +189,20 @@ main .nav-menus .nav-menu-itens li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1.5rem;
-    height: 11.6rem;
-    width: 11.6rem;
+    height: 15rem;
+    width: 14rem;
 }
 
 .menu-itens .iten-section .cards-section .card .card-img img{
-    height: 10rem;
+    height: 100%;
+    overflow: hidden;
+    padding: 0.5rem;
+    object-fit: fill;
 }
 
 .menu-itens .iten-section .cards-section .card .iten-description{
     position: relative;
-    margin: auto auto;
+    margin: 2rem 1rem;
 }
 
 .menu-itens .iten-section .cards-section .card .iten-description p:first-child{
@@ -211,7 +213,7 @@ main .nav-menus .nav-menu-itens li a{
 }
 
 .menu-itens .iten-section .cards-section .card .iten-description p{
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     color: #000000;
     font-family: 'Roboto';
 }
